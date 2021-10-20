@@ -1,0 +1,93 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --primary-white-color: #ffffff;
+  --primary-black-color: #000000;
+  --accent-color: #2196f3;
+  --secondary-bg-color: #f5f4fa;
+  --gray-bg-color: #2f303a;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: Roboto;
+  color: var(--primary-text-color);
+  background: var(--primary-white-color);
+}
+ul {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/* Logo */
+.logo {
+  color: var(--title-text-color);
+}
+
+/* Site-nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav.link.current {
+  color: var(--accent-color);
+}
+/* Contact-nav */
+.contacts-nav {
+  color: var(--primary-text-color);
+}
+
+.contacts-nav:hover,
+.contacts-nav:focus,
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero*/
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: var(--primary-white-color);
+}
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+}
+/* Features */
+.features-title {
+  color: var(--title-text-color);
+}
+/* Button */
+.button {
+  color: var(--primary-text-color);
+  background: var(--primary-white-color);
+}
+.button.primary {
+  color: var(--primary-white-color);
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer */
+.footer {
+  background: var(--gray-bg-color);
+}
+.footer-list {
+  color: var(--primary-white-color);
+}
+.footer-text {
+  color: var(--primary-white-color);
+}
+.footer-link {
+  color: var(--footer-text-color);
+}
+/* .footer-list {
+  color: var(--current-white-color);
+} */
