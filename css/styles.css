@@ -20,9 +20,7 @@ body {
   color: var(--primary-text-color);
   background: var(--primary-white-color);
   font-family: Roboto, sans-serif;
-  letter-spacing: 0.02em;
   font-weight: 500;
-  font-style: normal;
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -107,7 +105,6 @@ a {
   color: var(--title-text-color);
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .section-text {
@@ -121,18 +118,16 @@ a {
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .features-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
 }
 .features-text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
 }
 
 /* Button */
@@ -159,7 +154,6 @@ a {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
 }
 .footer-link {
   color: var(--accent-color);
@@ -173,7 +167,6 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
 }
 .footer-link {
   color: var(--footer-text-color);
@@ -182,17 +175,16 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
 }
 /* Portfolio */
 .portfolio-btn {
   background-color: #f5f4fa;
   color: var(--primary-black-color);
+  font-family: Roboto, sans-serif;
   border-radius: 4px;
   border: 0;
   font-size: 16px;
   line-height: 1.6;
-  letter-spacing: 0.03em;
 }
 .portfolio-btn:focus,
 .portfolio-btn:hover {
@@ -206,7 +198,6 @@ a {
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .portfolio-text {
   font-weight: 700;
@@ -219,5 +210,4 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
 }
